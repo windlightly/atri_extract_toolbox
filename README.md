@@ -1,5 +1,7 @@
 Forked from 2DIPW/atri_extract_toolbox
 
+本仓库是DIPW/atri_extract_toolbox的分支。与原仓库不同的是，本仓库改动了`batch_convert.py`，使其输出ffmpeg的输出信息，便于排查错误；以及新增了汇总解决解包问题的wiki。
+
 # ATRI Extract Toolbox
 此仓库是对视觉小说游戏《ATRI -My Dear Moments-》资源包结构和解包所需工具的总结与索引，并附带几个用于处理解包资源的脚本。
 ## 免责声明
@@ -129,3 +131,7 @@ python parse_script.py
 本仓库文本内容基于 CC BY-NC-SA 4.0 协议共享
 
 本仓库代码内容基于 GNU General Public License v3.0 开源
+
+
+## 分支说明
+我们希望成为上游的贡献者，但考虑到本仓库改动过多，合并可能会影响到上游的整洁性；所以为了尊重原作者，我们暂不打算与上游合并。如果上游作者愿意，我们将非常愿意pull。
